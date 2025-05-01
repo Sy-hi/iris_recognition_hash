@@ -33,7 +33,7 @@ Note: Large files (e.g., `.pth`, `.csv`, `.zip`) have been excluded due to GitHu
 
 ```bash
 # Segment iris from image to check seg_model actual performance
-python seg_image.py --img_path example.jpg
+python seg_image.py --img_path example.png
 
 # Train feature extractor and save encoding result
 python train_arcface_model_strong_v3.py
