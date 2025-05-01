@@ -1,0 +1,4 @@
+Segmentation Evaluation Metrics (Threshold=0.5)
+Precision: 0.9802
+Recall:    0.9631
+F1 Score:  0.9716

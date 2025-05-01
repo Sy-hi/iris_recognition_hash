@@ -1,0 +1,6 @@
+Best Threshold: 79
+F1 Score: 0.9980
+Precision: 0.9985
+Recall: 0.9975
+
+Intra Mean: 30.41, Inter Mean: 127.46

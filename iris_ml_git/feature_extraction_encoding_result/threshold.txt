@@ -1,0 +1,3 @@
+best_threshold=80
+intra_range=6 ~ 90
+inter_range=74 ~ 170
