@@ -22,12 +22,56 @@ This project implements an end-to-end iris recognition system that integrates de
 Note: Large files (e.g., `.pth`, `.csv`, `.zip`) have been excluded due to GitHub's 100MB file limit. Please contact the author for complete model files if needed.
 
 ## Requirements
+torch
+torchvision
+tqdm
+numpy
+opencv-python
+pillow
+matplotlib
+scikit-learn
+efficientnet_pytorch
 
-- Python 3.8+
-- PyTorch
-- OpenCV
-- scikit-learn
-- Tkinter
+# ==================== ASSETS BY SCRIPT ====================
+
+  ## seg.py
+  - unet_model.pth
+  
+  ## train_arcface_model_strong_v3.py
+  - log.csv
+  - training_curve.png
+  - match_log.csv
+  - hamming_hist.png
+  - train_encodings.csv
+  - train_encodings.pkl
+  - val_encodings.csv
+  - val_encodings.pkl
+  - threshold.txt
+  - tsne_hash.png
+  
+  ## infer_identity_from_image.py
+  - unet_model.pth
+  - train_encodings.csv
+  - threshold.txt
+  - (test.png)
+  	-input image
+  - seg_mask.png
+  - seg_overlay.png
+  - normalized_half.png
+  - encoded_input.png
+  
+  ## train_model.py
+  - unet_model.pth
+  
+  ## save_encodings_and_analyze.py
+  - hamming_stats.csv
+  
+  ## threshold_search.py
+  - threshold_result.txt
+  
+  ## tsne_visualizer.py
+  - tsne_hash.png
+
 
 ## Quick Start
 
